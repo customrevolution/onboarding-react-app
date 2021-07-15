@@ -1,0 +1,24 @@
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.568);
+  z-index: 99;
+}
+
+.modalContentWrapper {
+  position: fixed;
+  width: 500px;
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  background-color: white;
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}

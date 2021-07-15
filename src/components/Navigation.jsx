@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import classes from "./Navigation.module.css";
+
 import useDarkMode from "../hooks/useDarkMode";
 
 const Navigation = () => {
@@ -14,7 +16,10 @@ const Navigation = () => {
   };
 
   return (
-    <header>
+    <header className={classes.header}>
+      <div>
+        <p>Zoo Store</p>
+      </div>
       <nav>
         <ul>
           <li>
