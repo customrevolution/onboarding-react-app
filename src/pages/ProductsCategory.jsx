@@ -3,6 +3,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import getProducts from "../network/getProducts";
 import ProductList from "../components/ProductList";
+import classes from "./ProductsCategory.module.css";
 
 const ProductsCategory = (props) => {
   const [products, setProducts] = useState([]);
@@ -20,18 +21,15 @@ const ProductsCategory = (props) => {
 
   if (isLoading) {
     <div>
-      <h1>Products</h1>
-      <h2>Category:{category}</h2>
+      <h1 className={classes.header}>Products</h1>
       <p>Loading...</p>
     </div>;
   }
 
   return (
     <div>
-      <h1>Products</h1>
-      <h2>Category:{category}</h2>
-      <h2>{brand ? `Brand: ${brand}` : null}</h2>
-      <h2>{order ? `Order: ${order}` : null}</h2>
+      <h1 className={classes.header}>Products</h1>
+      S
       <ProductList products={products} />
     </div>
   );

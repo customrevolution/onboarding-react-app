@@ -13,7 +13,7 @@
   width: 500px;
   height: 400px;
   top: 0;
-  bottom: 0;
+  right: 50%;
   transform: translate(50%, 50%);
   background-color: white;
   z-index: 100;

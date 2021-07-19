@@ -10,7 +10,9 @@
 }
 
 .header div p {
-  font-size: 30px;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .header ul {
@@ -20,6 +22,12 @@
 .header ul li {
   display: inline-block;
   margin-left: 50px;
+  color: #001dbe;
+  transition: 0.2s;
+}
+
+.header ul li:hover {
+  color: #667aeb;
 }
 
 .header ul li a {

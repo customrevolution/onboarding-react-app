@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <header className={classes.header}>
       <div>
-        <p>Zoo Store</p>
+        <h1>PET SHOP</h1>
       </div>
       <nav>
         <ul>

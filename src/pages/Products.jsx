@@ -28,7 +28,7 @@ const Products = () => {
     <div>
       <button onClick={() => setIsModalOpen(true)}>Modal</button>
       <Modal
-        title={"titleeeee"}
+        title={"title"}
         isOpen={isModalOpen}
         onClose={() => {
           setIsModalOpen(false);
